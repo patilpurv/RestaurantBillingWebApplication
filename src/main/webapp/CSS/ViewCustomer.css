@@ -1,0 +1,48 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*
+.container
+{	
+	background-image:url(img/burgundybackground.jpg);	
+}*/
+
+.container h2{
+	color: white;
+}
+table
+{
+	margin-left: 300px;
+	margin-top: 50px;
+	text-align: center;
+}
+table tr,td,th
+{
+	border: 1px black solid;
+	border-collapse: collapse;
+	background-color: white;
+}
+table tr td
+{
+	border: 1px solid black;
+	padding: 1vh;
+}
+table tr th
+{
+	border: 1px solid black;
+	background: linear-gradient(rgb(73, 3, 28), rgb(162, 26, 74));
+	padding: 1vh 1em;
+	color: white;
+}
+
+table tbody td:hover
+{
+	background-color: rgb(192, 192, 192);
+}
+table th:hover
+{
+	background-color: rgb(0, 0, 160);
+}

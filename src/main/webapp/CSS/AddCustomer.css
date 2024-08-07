@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h3 {
+	color: white;
+}
+form {
+	background-color: white;
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+
+}
+
+form .addheading {
+	background-color: rgb(128, 0, 64);
+	text-align: center;
+	padding: 8px;
+	color: white;
+}
+
+table {
+	margin: 1em;
+}
+
+table td {
+	padding: 1em 6vh;
+
+}
+
+.inpt {
+	margin-left: 40px;
+}
+
+.inpt input {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
+
+}
+
+.btn {
+	display: block;
+	margin: auto;
+	margin-left: 13em;
+}
+
+.btn button {
+	background-color: rgb(128, 0, 64);
+	color: white;
+	outline: none;
+	border: none;
+	padding: 1vh;
+}

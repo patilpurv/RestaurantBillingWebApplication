@@ -1,0 +1,152 @@
+@charset "ISO-8859-1";
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+ background-color: rgba(0,0,0,0.55);
+  background-blend-mode: darken;
+}
+
+.header
+{
+    font-family: cursive;
+    text-align: center;
+   
+}
+.header h1
+{
+    color:white;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+.heading
+{
+    color: rgb(192, 185, 185);
+    text-align: center;
+       
+}
+.logo
+{
+    /* background-color: blue; */
+    
+    border-radius: 250px;
+    display: block;
+    margin: auto;
+}
+.logo img{
+    height: 100px;
+    width: 130px;
+    border-radius: 250px;
+}
+.main .login
+{
+    color:grey;
+    backdrop-filter: brightness(25%);
+    box-shadow: -5px -5px 16px black,5px 5px 6px black;
+    height: 47vh;
+}
+.head{
+    background-color:black;
+    color:gray;
+    text-align: center;
+    height: 6vh;
+    width: 100%;
+}
+.inpt
+{
+    width: 100%;
+}
+.user
+{
+    color: rgb(192, 185, 185);
+}
+input[type=text],input[type=password]
+{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    /* padding-left: 20px; */
+    background-color:grey;
+    text-align: center;
+    justify-content: center;
+    outline: none;
+}
+input[type=text]:hover
+{
+    background-color:ghostwhite;
+}
+input[type=password]:hover
+{
+    background-color:ghostwhite;
+    
+}
+.password
+{
+    color: rgb(192, 185, 185);
+}
+.remember
+{
+    text-align: center;
+    justify-content: center;
+    color:  rgb(192, 185, 185);;   
+}
+input[type=checkbox]
+{
+    border: none;
+    background-color:rgb(224, 243, 243);
+    cursor: pointer;
+    outline: none;
+}
+input[type=button]
+{
+    border: none;
+    text-align: center;
+    background-color: rgb(201, 40, 40);
+    height: 35px;
+    width: 30%;
+    border-radius: 6%;
+    color:  rgb(192, 185, 185);
+    display: block;
+    margin: auto;
+    /* margin-left: 120px; */
+    margin-top: 10px;
+}
+.login a
+{
+    text-decoration: none;
+    border: none;
+}
+
+input[type=button]:hover
+{
+   
+     background-color: rgb(44, 95, 49);
+}
+.forget
+{
+    margin-top: 10px;
+    text-align: center;
+}
+.forget a
+{
+    text-decoration: none;
+    border: none;
+}
+.slogen
+{
+    text-align: center;
+    color:cornsilk;
+}

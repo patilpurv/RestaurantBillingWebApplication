@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar
+{
+      /* background-color: rgb(162, 26, 74);   */
+    background: linear-gradient(rgb(73, 3, 28), rgb(162, 26, 74));
+    height: 100vh;
+}
+.menuhd img{
+    height: 7vh;
+    width: 40%;
+}
+.mainlist .customer
+{
+    display: block;
+    margin: auto;
+}
+.mainlist .customer img
+{
+   height: 6vh;
+    width: 25%; 
+}
+.submenu a span
+{
+    color: gray;
+}
+.maincont .sidepage
+{
+    background: linear-gradient(to right,black,brgb(140, 136, 136));
+}
+.nav-link img
+{
+    height: 6vh;
+    width: 35%;
+    margin-left: auto;
+}
+ .sidebar a{
+    color: white;
+    text-decoration: none;
+}

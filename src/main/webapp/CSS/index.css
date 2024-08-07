@@ -1,0 +1,123 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+   
+}
+.nav
+{
+    height: auto;
+    background: linear-gradient(to right,rgb(42, 40, 40),rgb(52, 51, 51),rgb(48, 47, 47));
+    box-shadow: 5px 5px 16px rgb(118, 116, 116);
+}
+.nav .logo img
+{
+   height: 10vh;
+   width: 32%;
+   display: block;
+   margin: auto;
+}
+.menu
+{
+    text-align: center;
+}
+.ul .li:hover
+{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px gray;
+}
+.ul .li a
+{
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(219, 214, 214);
+}
+.log
+{
+    margin-left:40px ;
+}
+.welcome
+{
+    height: 10vh;
+    text-align: center;
+    background-color: rgb(246, 178, 51);
+}
+.welcome h2
+{
+   text-align: center;
+   font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.slider
+{
+    height: auto;
+}
+.slider img
+{
+    height: 80vh;
+}
+.features
+{
+    background-image: url("img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   height:50vh ;
+   position: relative;
+   background-position: center;
+   background-size: 100%;
+  background-color: rgba(0,0,0,0.55);
+  background-blend-mode: darken;
+}
+
+.features .title 
+{
+    text-align: center;
+    color: white;
+    /* background-color: blue; */  
+}
+.features .line
+{
+    color: orange;
+}
+.features .cap
+{
+    color: rgb(215, 209, 209);
+}
+.feature_Cont  img
+{
+     height: 40vh;
+     width: 90%;
+}
+.feature_Cont h3
+{
+    color: orange;
+}
+.footer
+{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 2em;
+}
+.footer ul li
+{
+    display: inline;
+}
+li a
+{
+    margin: 1em;
+}
+.copyright p
+{
+    text-align: center;
+  padding: 1em;
+  width: 100%;
+}
+

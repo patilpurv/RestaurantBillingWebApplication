@@ -1,0 +1,179 @@
+@charset "ISO-8859-1";
+
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow-y: hidden;
+}
+.slider
+{
+    background-color: rgb(244, 229, 239);
+    height: 25vh;/*
+    box-shadow: 10px 8px 10px rgb(227, 232, 234);*/
+    overflow-y: hidden;
+}
+.slider .ourmenu h1
+{
+   font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 40px;
+padding-left: 1em;
+   
+}
+.slider ul li
+{
+    display: inline;
+}
+.slider ul li button
+{
+	 height:5vh ;
+    width: 15%;
+    background-color:white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.slider ul li input
+{
+    height:5vh ;
+    width: 15%;
+    background-color:white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.slider .search 
+{
+    text-align: center;
+}
+.slider .search input
+{
+    height: 6vh;
+    width: 50%;
+    border: none;
+    margin-top: 15vh;
+    padding-left: 3px;
+}
+.containt
+{
+    background-color:rgb(232, 229, 229) ;
+    height: 70vh;
+}
+.hidden
+{
+	display: none;
+}
+.menu
+{
+	 box-shadow: 10px 8px 10px rgb(227, 232, 234);
+	background-color: orange;
+	 height: 69vh;	
+}
+.menuitems
+{
+    border-bottom: 1px rgb(192, 192, 192) solid;
+    /* border-collapse:collapse ; */
+    /* background-color: rgb(165, 165, 215);*/
+} 
+.menu a h5{
+    text-decoration: none;
+    color: black;
+    padding: 1vh;
+   
+}
+.menuitems h4
+{
+    float: left;
+}
+.menu a
+{
+	text-decoration: none;
+}
+.menu .subrow
+{
+	padding: 1em 0;
+	border-bottom: 1px solid orangered;
+}
+.menu .subrow:hover
+{
+    background-color:rgb(166, 160, 160);
+}
+/*.add a
+{
+	background-color: orange;
+	 text-decoration: none;
+    color: black;
+}*/
+.sub_menu:hover
+{
+	background-color: gainsboro;
+}
+.items .h
+{
+	text-align: center;
+	background-color: orange;
+	font-weight: bold;
+}
+
+.cart
+{
+  border-left: 1px solid rgb(192, 192, 192);	
+}
+/*.cart .add button{
+	background-color: orange;
+	                                                             text-decoration: none;
+                                                                 color: black;
+                                                                 padding:1vh;
+                                                                 border-radius:5px;
+                                                                 box-shadow: 5px 5px 5px rgb(255, 128, 0);
+}*/
+.cart input
+{
+	width: 95%;
+	height:2em ;
+	border: none;
+	outline: gainsboro;
+	padding:1em ;
+	box-shadow: 5px 5px 5px rgb(192, 192, 192);
+	background-color: rgb(243, 243, 243);
+	
+}
+.cart .sub{
+	width: 100%;
+	border: none;
+	background-color: gainsboro;
+	box-shadow: 5px 5px 5px gray;
+	float: right;
+	
+}
+.cart .sub:hover{
+	
+	background-color: rgb(192, 192, 192);
+	
+}
+.table table thead tr 
+{
+	background-color: orange;;
+	height: 8vh;
+	text-align: center;
+}
+.table table tbody tr 
+{
+	background-color:white;
+	height: 8vh;
+	text-align: center;
+}
+/*.table table tbody tr:hover 
+{
+	background-color: rgb(150, 209, 214);
+}*/
+.bill
+{
+	float: right;
+}

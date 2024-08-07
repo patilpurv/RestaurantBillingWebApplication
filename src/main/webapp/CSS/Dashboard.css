@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar
+{
+      /* background-color: rgb(162, 26, 74);   */
+    background: linear-gradient(rgb(73, 3, 28), rgb(162, 26, 74));
+    height: 100vh;
+}
+.menuhd img{
+    height: 7vh;
+    width: 40%;
+}
+.mainlist .customer
+{
+    display: block;
+    margin: auto;
+}
+.mainlist .customer img
+{
+   height: 6vh;
+    width: 25%; 
+}
+.submenu a 
+{
+    color: black;
+}
+.maincont .sidepage
+{
+    background: linear-gradient(to right,black,brgb(140, 136, 136));
+}
+.nav-link img
+{
+    height: 6vh;
+    width: 35%;
+    margin-left: auto;
+}
+ .sidebar a{
+    color: white;
+    text-decoration: none;
+}
+.sidebar a:hover
+{
+	color: black;
+}
+ds.none{
+	color:white;
+}
+ul .list{
+	border-bottom:2px solid rgb(244, 229, 239);
+	color: white;
+}
+ul .list:hover{
+	background-color:rgb(244, 229, 239);
+	/*box-shadow: 5px 5px 5px brown;*/
+	color:black;
+	padding: 0vh 1vh;
+	border-radius: 5px;
+	
+}
+ul .sublist a
+{
+	color:navajowhite;
+	text-align: center;
+}
+ul .sublist :hover
+{
+	background-color:chocolate;
+	color: white;
+	border-radius: 5px;
+}
